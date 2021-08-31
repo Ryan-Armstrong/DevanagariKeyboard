@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DevanagariKeyboard</string>
+    <string name="simple_ime">Devanagari</string>
+    <string name="subtype_deva">देवनागरि</string>
+</resources>

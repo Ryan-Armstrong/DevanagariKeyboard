@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
+    <Row>
+        <Key android:codes="2407" android:keyLabel="१" android:keyEdgeFlags="left"/>
+        <Key android:codes="2408" android:keyLabel="२"/>
+        <Key android:codes="2409" android:keyLabel="३"/>
+        <Key android:codes="2410" android:keyLabel="४"/>
+        <Key android:codes="2411" android:keyLabel="५"/>
+        <Key android:codes="2412" android:keyLabel="६"/>
+        <Key android:codes="2413" android:keyLabel="७"/>
+        <Key android:codes="2414" android:keyLabel="८"/>
+        <Key android:codes="2415" android:keyLabel="९"/>
+        <Key android:codes="2406" android:keyLabel="०" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="2404" android:keyLabel="।" android:keyEdgeFlags="left"/>
+        <Key android:codes="2405" android:keyLabel="॥"/>
+        <Key android:codes="2365" android:keyLabel="ऽ"/>
+    </Row>
+    <Row>
+        <Key android:codes="2416" android:keyLabel="॰" android:keyEdgeFlags="left"/>
+        <Key android:codes="44" android:keyLabel=","/>
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="40" android:keyLabel="("/>
+        <Key android:codes="41" android:keyLabel=")"/>
+    </Row>
+    <Row>
+        <Key android:codes="2384" android:keyLabel="ॐ" android:keyEdgeFlags="left"/>
+        <Key android:codes="2305" android:keyLabel="ँ"/>
+        <Key android:codes="2386" android:keyLabel="॒"/>
+        <Key android:codes="2385" android:keyLabel="॑"/>
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyLabel=" " android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="SP"/>
+        <Key android:codes="32" android:keyLabel="[SPC]"/>
+        <Key android:codes="-5" android:keyLabel="BCK"  android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="OK" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

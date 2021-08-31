@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
+    <Row>
+        <Key android:codes="2309, 2310" android:keyLabel="अ" android:keyEdgeFlags="left"/>
+        <Key android:codes="2311, 2312" android:keyLabel="इ"/>
+        <Key android:codes="2315, 2400" android:keyLabel="ऋ"/>
+        <Key android:codes="2316, 2401" android:keyLabel="ऌ"/>
+        <Key android:codes="2313, 2314" android:keyLabel="उ"/>
+        <Key android:codes="2319" android:keyLabel="ए"/>
+        <Key android:codes="2320" android:keyLabel="ऐ"/>
+        <Key android:codes="2323" android:keyLabel="ओ"/>
+        <Key android:codes="2324" android:keyLabel="औ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="2325" android:keyLabel="क" android:keyEdgeFlags="left"/>
+        <Key android:codes="2330" android:keyLabel="च"/>
+        <Key android:codes="2335" android:keyLabel="ट"/>
+        <Key android:codes="2340" android:keyLabel="त"/>
+        <Key android:codes="2346" android:keyLabel="प"/>
+        <Key android:codes="2381" android:keyLabel="्" android:horizontalGap="10%p"/>
+        <Key android:codes="2366" android:keyLabel="ा"/>
+        <Key android:codes="2306" android:keyLabel="ं"/>
+        <Key android:codes="2307" android:keyLabel="ः" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="2327" android:keyLabel="ग" android:keyEdgeFlags="left"/>
+        <Key android:codes="2332" android:keyLabel="ज"/>
+        <Key android:codes="2337" android:keyLabel="ड"/>
+        <Key android:codes="2342" android:keyLabel="द"/>
+        <Key android:codes="2348" android:keyLabel="ब"/>
+        <Key android:codes="2367" android:keyLabel="ि" android:horizontalGap="10%p"/>
+        <Key android:codes="2368" android:keyLabel="ी"/>
+        <Key android:codes="2369" android:keyLabel="ु"/>
+        <Key android:codes="2370" android:keyLabel="ू" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="2329" android:keyLabel="ङ" android:keyEdgeFlags="left"/>
+        <Key android:codes="2334" android:keyLabel="ञ"/>
+        <Key android:codes="2339" android:keyLabel="ण"/>
+        <Key android:codes="2344" android:keyLabel="न"/>
+        <Key android:codes="2350" android:keyLabel="म"/>
+        <Key android:codes="2371" android:keyLabel="ृ" android:horizontalGap="10%p"/>
+        <Key android:codes="2372" android:keyLabel="ॄ"/>
+        <Key android:codes="2402" android:keyLabel="ॢ"/>
+        <Key android:codes="2403" android:keyLabel="ॣ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyLabel="MP" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="SP"/>
+        <Key android:codes="32" android:keyLabel="[SPC]"/>
+        <Key android:codes="-5" android:keyLabel="BCK"  android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="OK"/>
+        <Key android:codes="2375" android:keyLabel="े" android:horizontalGap="10%p"/>
+        <Key android:codes="2376" android:keyLabel="ै"/>
+        <Key android:codes="2379" android:keyLabel="ो"/>
+        <Key android:codes="2380" android:keyLabel="ौ" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
